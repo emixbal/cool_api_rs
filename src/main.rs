@@ -1,7 +1,7 @@
 // main.rs
 
 use actix_web::{App, HttpServer};
-use crate::app::routers::router_global::*;
+use crate::app::routers::router_global::app_config;
 
 pub mod app;
 
